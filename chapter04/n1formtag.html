@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body> <!-- form 입력하고 탭치니까 default로 action=""속성 생성-->
+  <form action="./01-result.html" method="get" autocomplete="off">
+    <!-- lobel 입력하고 탭치니까 default로 for=""속성 생성-->
+    <label for="name">이름</label>
+    <!-- input 입력하고 탭치니까 default로 type="text"속성 생성-->
+    <input id="name" name="my-name" type="text">
+    <br><br>
+    <label for="age">나이</label>
+    <input id="age" name="my-age" type="number">
+    <br><br>
+    <button type="submit">제출</button>
+    <button type="reset">초기화</button>
+  </form>
+</body>
+</html>
